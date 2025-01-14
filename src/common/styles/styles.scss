@@ -1,0 +1,29 @@
+@use "animation";
+@use "button";
+@use "borders";
+@use "colors";
+
+* {
+  font-family: "Roboto Flex", serif;
+  font-weight: normal;
+
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+body {
+  color: var(--color-gray);
+}
+
+.v-hidden {
+  visibility: hidden;
+}
+
+.v-visible {
+  visibility: visible;
+}
+
+.v-collapse {
+  visibility: collapse;
+}

@@ -1,0 +1,8 @@
+$border-min: 1;
+$border-max: 10;
+
+@for $border from 0 to 200 {
+  .rounded-#{$border} {
+    border-radius: #{$border}px;
+  }
+}

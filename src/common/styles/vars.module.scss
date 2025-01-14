@@ -1,0 +1,8 @@
+@use "styles";
+
+:export {
+  colorWhite: var(--color-white);
+  colorGray: var(--color-gray);
+  colorPrimary: var(--color-primary);
+  colorSecondary: var(--color-secondary);
+}
